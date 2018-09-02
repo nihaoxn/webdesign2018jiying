@@ -4,8 +4,8 @@
    git add ceshi.md  '新建文件
    git status        '查看文件状态  有modify M  待提交等
    git commit -m "提交原因" 
-   git pull 库名 分支名   '例如  jiying master
-   git push 库名 分支名   '例如  jiying master
+   git pull 库名 分支名   '例如  jiying master 可以不加
+   git push 库名 分支名   '例如  jiying master  可以不加
    
    ```
     
