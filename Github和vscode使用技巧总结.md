@@ -14,6 +14,10 @@
  ## 二、使用vscode可视化进行更改
    [可视化保持vscode和github同步方法](https://segmentfault.com/a/1190000013762818 "版本控制")
 
+   1. 先暂存
+   2. 拉
+   3. 推
+
 ---
 
 
