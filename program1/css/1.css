@@ -1,0 +1,29 @@
+h1{
+   color:red;
+   font-size: 24px;
+   text-decoration:overline; /* 下划线  */
+ }
+h2{
+    text-indent: 2em; /*  缩进  */
+}
+h3{
+    color: blue;
+}
+h4{
+    border: 1px solid #e90b0b;
+}
+
+.myh{
+    text-align: center; /*  内容对齐   */
+    text-decoration: none;
+    color: crimson;
+}
+#myh2{
+    text-indent: 4em;
+}
+
+.myh span{
+    font-size: 12px;
+    color:rgb(100, 97, 97);
+    font-weight: normal; /*   加粗  */
+}

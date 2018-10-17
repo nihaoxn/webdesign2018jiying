@@ -1,0 +1,12 @@
+header{
+    border:1px solid red;
+}
+header a{
+    color: #837d7d;
+    text-decoration: none;
+}
+.center{
+    border: 2px solid blue;
+    text-align: center;
+    color: #837d7d;
+}
