@@ -1,0 +1,43 @@
+body{
+    margin-top:0px;
+}
+#header{
+    margin:0px auto;
+    width: 1000px;
+    height: 120px;
+    border: 2px solid red;
+}
+#nav{
+    margin:0px auto;
+    width: 996px;
+    height: 35px;
+    border: 2px solid blue;
+    margin-top:56px;
+}
+#main{
+    width: 1000px;
+    margin: 0px auto;
+    border:2px solid red;
+}
+#left{
+    width: 400px;
+    border:2px solid blue;
+    float: left;
+}
+#right{
+    width:592px;
+    border: 2px solid rgb(175, 9, 147);
+    float: left;
+}
+.right_sub{
+    width: 588px;
+    height:200px;
+    border:2px solid blue;
+    float: left;
+}
+#footer{
+    width: 1000px;
+    height: 60px;
+    margin: 0px auto;
+    border:2px solid red;
+}
