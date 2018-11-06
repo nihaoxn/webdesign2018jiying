@@ -1,0 +1,109 @@
+body{
+    margin-top: 0px;
+    background: #e9e6e6;
+}
+h2{
+    margin:0px;
+}
+#header{
+    width:1000px;
+    height: 166px;
+    margin:0px auto;
+    background: url(../images/jy2017_01.jpg);
+}
+#daohang{
+    width: 1000px;
+    height: 44px;
+    margin:0px auto;
+    background: url(../images/jy2017_03.jpg) repeat-x;
+}
+#main{
+    width: 1000px;
+    margin:0px auto;
+    margin-top: 5px;
+    background: white;
+}
+#left{
+    width:391px;
+    height: 515px;
+    float: left;
+}
+#right{
+    width: 562px;
+    height: 515px;
+    float: right;
+}
+#left h2{
+    width:391px;
+    height:57px;
+    line-height: 47px;
+    float: left;
+    background: url(../images/jy2017_07.jpg);
+   font-size: 20px;
+}
+#left h2 a{
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+}
+#left h2 a:hover{
+    text-decoration: underline;
+}
+#jianjie{
+    width: 351px;
+    height: 426px;
+    float: left;
+    background: url(../images/jy2017_11.jpg);
+    padding:0px 20px;
+}
+#jiewei{
+    width: 391px;
+    height: 32px;
+    float: left;
+    background: url(../images/jy2017_18.jpg);
+}
+
+.right_in{
+   width: 562px;
+   height: 257px;
+   float: right;
+}
+.right_in h2{
+    width:547px;
+    height:78px;
+    line-height: 48px;
+    float: right;
+    background: url(../images/jy2017_09.jpg);
+   font-size: 20px;
+}
+.right_in h2 a{
+    color: white;
+    margin-left: 100px;
+    text-decoration: none;
+}
+.right_in h2 a:hover{
+    text-decoration: underline;
+}
+.right_in .rjj{
+    width: 507px;
+    height: 153px;
+    float: right;
+    background: url(../images/jy2017_14.jpg);
+    padding:0px 20px;
+}
+.right_in .rjw{
+    width: 547px;
+    height: 26px;
+    float: right;
+    background: url(../images/jy2017_16.jpg);
+}
+
+#footer{
+    width:1000px;
+    height: 100px;
+    background: url(../images/jy2017_20.jpg);
+    margin: 0px auto;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
