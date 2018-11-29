@@ -1,0 +1,57 @@
+body{
+    
+}
+div[class*="grid_"]{
+    float: left;
+    margin:0 0 10px 0px;
+    min-height: 100px;
+}
+.grid_s1{
+    width:8.3%;
+}
+.grid_s2{
+    width:16.6%;
+}
+.grid_s3{
+    width:24.9%;
+}
+.grid_s4{
+    width:33.2%;
+}
+.grid_s5{
+    width:41.5%;
+}
+.grid_s6{
+    width:49.3%;
+}
+.grid_s7{
+    width:58.1%;
+}
+.grid_s8{
+    width:66.4%;
+}
+.grid_s9{
+    width:74.7%;
+}
+.grid_s10{
+    width:83%;
+}
+.grid_s11{
+    width:91.3%;
+}
+.grid_s12{
+    width:100%;
+}
+
+.green{
+    background: green;
+}
+.blue{
+    background:blue;
+}
+.red{
+    background:red;
+}
+.yellow{
+    background:yellow;
+}

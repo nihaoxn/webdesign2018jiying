@@ -1,0 +1,30 @@
+.banner{
+    height: 166px;
+    background:rgb(64, 51, 252);
+    color:white;
+    font-size:3em;
+    text-align:center;
+    line-height: 166px;
+}
+.daohang{
+    height:50px;
+}
+.navbar{
+    border-radius: 0px;
+}
+.left{
+    height: 615px;
+    background: #ccc;
+    margin-bottom:15px;
+}
+.right{
+    height: 300px;
+    background:rgb(51, 52, 54);
+    margin-bottom:15px;
+}
+.footer{
+    height:80px;
+    text-align: center;
+    color:white;
+    background:rgb(64, 51, 252);
+}
