@@ -95,6 +95,97 @@
                     </div>
                     <button type="submit" class="btn btn-default">Submit</button>
                   </form>
+
+                  <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      友情链接
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="http://www.xyafu.edu.cn">信阳农林学院</a></li>
+                      <li><a href="#">信息工程学院</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">牧医工程学院</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+            
+                  <div class="btn-group" role="group" aria-label="...">
+                    <button type="button" onclick="" class="btn btn-default">关灯</button>
+                    <button type="button" onclick="alert('中')" class="btn btn-default">开灯</button>
+                    <button type="button" onclick="alert('右')" class="btn btn-default">Right</button>
+                  </div>
+
+                  <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+                    Loading state
+                  </button>
+                  
+                  <script>
+                    $('#myButton').on('click', function () {
+                      var $btn = $(this).button('loading')
+                      
+                      $btn.button('reset')
+                    })
+                  </script>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+            
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="http://www.xyafu.edu.cn/images/content/2018-12/20181201111132907588.jpg" alt="...">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="http://www.xyafu.edu.cn/images/content/2018-10/20181009121104065462.jpg" alt="...">
+                  <div class="carousel-caption">
+                    ...
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="http://www.xyafu.edu.cn/images/content/2018-03/20180320155235550652.jpg" alt="...">
+                  <div class="carousel-caption">
+                    第三张焦点图
+                  </div>
+                </div>
+              </div>
+            
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          
+          <!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">关闭当前窗口</button>
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <a href="###" onclick="javascript:window.close();return false;">关闭当前窗口</a><br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+  </div>
+</div>
+
+  <span class="glyphicon glyphicon-camera"></span>
+
         </div>
   
       </div><!-- /.container -->
