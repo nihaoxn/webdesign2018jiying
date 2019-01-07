@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户注册</title>
+<script>
+   function formcheck(){
+       //检查用户名 为至少4个字符   最多60个字符
+       var username = document.getElementById("username");
+       
+       var cwts = document.getElementById("cwts");
+       
+       if(username.value.length<4||username.value.length>60){
+           cwts.innerText = "*用户名必须为4——60个字";
+           username.focus();
+           username.select();
+           username.style.border = "solid 1px red";
+           return false;
+       };
+       //判断密码至少为6位  小于等于30位
+       var password = document.getElementById("password");
+       if(password.value.length<6||password.value.length>=30){
+           cwts.innerText = "*密码必须为6——30个字";
+           password.focus();
+           password.select();
+           password.style.border = "solid 1px red";
+           return false;
+       };
+       //当前面的验证通过了，这里返回true，可以把表单提交走
+       return true;
+   }
+  function check(obj,min,max,txt){
+    var cwts = document.getElementById("cwts");
+      if(obj.value.length>=min&&obj.value.length<=max){
+        cwts.innerText = txt+"输入正确";
+        obj.style.border = "solid 1px #ccc";
+      }else{
+        cwts.innerText = txt+"输入不正确，请重新输入！";
+        obj.style.border = "solid 1px red";
+      }
+  }
+
+</script>
+</head>
+<body>
+  <form action="?" method="get" onsubmit="return formcheck()">
+    <table border="0" cellpadding="0" cellspacing="0" width="400" align="center" >
+     <tr>
+         <td align="right">用户名：</td><td><input type="text" name="username" id="username" onblur="check(this,4,60,'用户名')"></td>
+     </tr>
+     <tr>
+         <td align="right">密　码：</td><td><input type="password" name="password" id="password" onblur="check(this,6,30,'密码')"></td>
+     </tr>
+     <tr>
+         <td colspan="2" align="center" style="color:red;font-size:11px;" id="cwts"></td>
+     </tr>
+     <tr>
+         <td></td><td><input type="submit" name="tijiao" value="注册"></td>
+     </tr>
+     
+
+    </table>
+ </form>
+</body>
+</html>
